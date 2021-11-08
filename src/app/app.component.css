@@ -1,0 +1,21 @@
+.backgroundImage{
+    background-image: url("https://i.postimg.cc/cH7D5Scm/imageedit-1-4890308131.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0;
+}
+
+.overflow{
+
+    min-width: 100%;
+    min-height: 100%;      
+    float:left;
+    width:1000px;
+    overflow-y: auto;
+    height: 100px;
+}
