@@ -5,13 +5,20 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
+
 body{
+  background-image: url("https://i.postimg.cc/cH7D5Scm/imageedit-1-4890308131.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed;  */
+
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
 }
 .container{
   max-width: 800px;

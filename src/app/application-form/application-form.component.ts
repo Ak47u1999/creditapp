@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { formModel } from 'src/Models/formModel';
 
 @Component({
   selector: 'app-application-form',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ApplicationFormComponent implements OnInit {
 
+  
+  formData?:formModel;
   constructor() { }
 
   ngOnInit(): void {
