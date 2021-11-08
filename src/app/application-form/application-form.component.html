@@ -8,98 +8,106 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> -->
+<!-- style="background: url(https://17155home.files.wordpress.com/2020/07/img_1104.jpg?w=1600&h=900&crop=1) no-repeat center center fixed;;
+    opacity: 1;" -->
 
-<body>
-    <div class="container">
+<body >
+    <div class="container" style="background: transparent;">
         <div class="title">Creditpro - AI Powered credit issuance system</div>
-        <div class="content">
+        <div class="content" >
             <form action="#">
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">OWN's CAR</span>
-                        <label for="cars">Choose your Option:</label>
+                <div class="user-details" style="background: transparent;">
+                    <div class="input-box" style="background: transparent;">
+                        <span class="details">Own'car
+                        </span>
+                        <!-- <label for="cars">Choose your Option:</label> -->
 
-                        <select name="cars" id="cars" placeholder="YES or NO">
-                            <option value="volvo">YES</option>
-                            <option value="saab">NO</option>
-
+                        <select name="cars" id="cars" placeholder="YES or NO" style="width: 100%; height: 75%; border-radius: 1.5mm;">
+                            <option value="Choose your Option:">Choose your Option:</option>
+                            <option value="YES">YES</option>
+                            <option value="NO">NO</option>
+                            
                         </select>
                         <!-- <input type="text" placeholder="YES or NO" required> -->
                     </div>
                     <div class="input-box">
-                        <span class="details">OWN's HOME</span>
-                        <label for="cars">Choose your Option:</label>
+                        <span class="details">Own's Home</span>
+                        <!-- <label for="cars">Choose your Option:</label> -->
 
-                        <select name="cars" id="cars" placeholder="YES or NO">
-                            <option value="volvo">YES</option>
-                            <option value="saab">NO</option>
-
+                        <select name="cars" id="cars" placeholder="YES or NO" style="width: 100%; height: 75%; border-radius: 1.5mm;">
+                            <option value="Choose your Option:">Choose your Option:</option>
+                            <option value="YES">YES</option>
+                            <option value="NO">NO</option>
+                            
                         </select>
                         <!-- <input type="text" placeholder="YES or NO" required> -->
                     </div>
                     <div class="input-box">
-                        <span class="details">No. of CHILDREN</span>
-                        <input type="number" placeholder="Please enter No of CHILDREN" required>
+                        <span class="details">No of children</span>
+                        <input type="number" placeholder="Please enter No of children" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">INCOME_TYPE</span>
-                        <select name="cars" id="cars" placeholder="YES or NO">
-                            <option value="volvo">Salaried</option>
-                            <option value="saab">Self EMPLOYED</option>
-
+                        <span class="details">Income Type</span>
+                        <select name="IncomeType" id="IncomeType" placeholder="YES or NO" style="width: 100%; height: 75%; border-radius: 1.5mm;">
+                            <option value="Salaried">Salaried</option>
+                            <option value="Self EMPLOYED">Self EMPLOYED</option>
+                            
                         </select>
-                        <input type="number" placeholder="Please enter INCOME_TYPE" required>
+                        <!-- <input type="number" placeholder="Please enter INCOME_TYPE" required> -->
                     </div>
 
                     <div class="input-box">
-                        <span class="details">EDUCATION_TYPE</span>
-                        <input type="number" placeholder="Please enter EDUCATION_TYPE" required>
+                        <span class="details">Education Type</span>
+                        <input type="text" placeholder="Please enter Education Type" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">Total INCOME</span>
-                        <input type="number" placeholder="Enter Total INCOME" required>
+                        <span class="details">Total Income
+                        </span>
+                        <input type="number" placeholder="Enter Total Income
+                        " required>
+                    </div>
+                    <!-- <div class="input-box">
+                        <span class="details">Education Type
+                        </span>
+                        <input type="number" placeholder="Enter Education Type
+                        " required>
+                    </div> -->
+                    <div class="input-box">
+                        <span class="details">Family Status</span>
+                        <input type="text" placeholder="Enter Family Status" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">FAMILY_STATUS</span>
-                        <input type="number" placeholder="Enter FAMILY_STATUS" required>
+                        <span class="details">Family Members</span>
+                        <input type="number" placeholder="Enter no. Family Members" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">FAMILY MEMBERS</span>
-                        <input type="number" placeholder="Enter no. FAMily MEMBERS" required>
+                        <span class="details">Housing Type</span>
+                        <input type="number" placeholder="Enter Housing Type" required>
                     </div>
                     <div class="input-box">
-                        <span class="details">HOUSING_TYPE</span>
-                        <input type="number" placeholder="Enter HOUSING_TYPE" required>
+                        <span class="details">Age</span>
+                        <input type="number" placeholder="Enter your Age" required>
+                    </div>
+                    <div class="input-box" style="background: transparent;">
+                        <span class="details">Gender
+                        </span>
+                        <!-- <label for="cars">Choose your Option:</label> -->
+    
+                        <select name="cars" id="cars" placeholder="YES or NO" style=" height: 75%; border-radius: 1.5mm;">
+                            <option value="Choose your Option:">Choose your Option:</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            
+                        </select>
+                        <!-- <input type="text" placeholder="YES or NO" required> -->
                     </div>
                     <div class="input-box">
-                        <span class="details">AGE</span>
-                        <input type="number" placeholder="Enter your AGE" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">YEARS_EMPLOYED</span>
-                        <input type="number" placeholder="TOTAL NO. OF YEARS EMPLOYED" required>
+                        <span class="details">Years Employed</span>
+                        <input type="number" placeholder="Total No Of Years Employed" required>
                     </div>
                 </div>
-                <div class="gender-details">
-                    <input type="radio" name="gender" id="dot-1">
-                    <input type="radio" name="gender" id="dot-2">
-                    <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Gender</span>
-                    <div class="category">
-                        <label for="dot-1">
-                            <span class="dot one"></span>
-                            <span class="gender">Male</span>
-                        </label>
-                        <label for="dot-2">
-                            <span class="dot two"></span>
-                            <span class="gender">Female</span>
-                        </label>
-                        <!-- <label for="dot-3">
-                            <span class="dot three"></span>
-                            <span class="gender">Prefer not to say</span>
-                        </label> -->
-                    </div>
-                </div>
+                
+                
                 <div class="button">
                     <input type="submit" value="Submit">
                 </div>
