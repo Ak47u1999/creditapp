@@ -4,7 +4,7 @@ export interface formModel{
     homeOwnershipStatus:boolean;
     numberOfChildren: number;
     incomeType:string;
-    educationtype:string;
+    educationType:string;
     totalIncome:number;
     familyStatus:string;
     numberOfFamilyMembers:number;
